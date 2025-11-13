@@ -8,6 +8,7 @@ nav:
   - Quickstart: quickstart.md
   - Showcase: showcase.md
   - MNIST Tutorial: mnist.md
+  - FPGA Validation: fpga_validation.md
   - API Reference:
     - Tensor:
       - tensor/index.md

@@ -23,6 +23,7 @@ The main class you will interact with is [Tensor](tensor/index.md). It functions
 * tinygrad has a built in [neural network library](nn.md) with some classes, optimizers, and load/save state management.
 * tinygrad has a JIT to make things fast. Decorate your pure function with `TinyJit`
 * tinygrad has amazing support for multiple GPUs, allowing you to shard your Tensors with `Tensor.shard`
+* tinygrad now ships with [FPGA validation tooling](fpga_validation.md) for PCIe/Ethernet/HDMI compliance pipelines.
 
 To understand what training looks like in tinygrad, you should read `beautiful_mnist.py`
 
